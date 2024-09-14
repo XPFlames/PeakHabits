@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+#habit-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#habit-form input, #habit-form select {
+    margin-right: 10px;
+    padding: 5px;
+}
+#habits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.habit-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.habit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.habit-title {
+    font-size: 18px;
+    margin: 0;
+}
+.habit-category {
+    font-size: 14px;
+    color: #666;
+}
+.habit-dates {
+    margin-top: 10px;
+}
+.habit-date {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+.habit-date.completed {
+    background-color: #76c7c0;
+}
